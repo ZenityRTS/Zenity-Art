@@ -16,9 +16,9 @@
    id="svg4663"
    version="1.1"
    inkscape:version="0.91 r13725"
-   inkscape:export-filename="/home/awrapp/Documents/ZenityWIP/zenity-icon-64.png"
-   inkscape:export-xdpi="360"
-   inkscape:export-ydpi="360"
+   inkscape:export-filename="/home/awrapp/Documents/ZenityWIP/zenity-icon-128.png"
+   inkscape:export-xdpi="720"
+   inkscape:export-ydpi="720"
    sodipodi:docname="zenity-icon.svg">
   <defs
      id="defs4665">
@@ -44,6 +44,19 @@
        y2="1048.3622"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.71428571,0,0,1,2.2857143,0)" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4201"
+       x="-0.072"
+       width="1.144"
+       y="-0.036"
+       height="1.072">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.18"
+         id="feGaussianBlur4203" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -53,10 +66,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="31.678384"
-     inkscape:cx="2.3397197"
-     inkscape:cy="6.4281003"
+     inkscape:cx="-2.558977"
+     inkscape:cy="7.9967428"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer3"
      showgrid="true"
      units="px"
      showguides="true"
@@ -102,25 +115,43 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="Background"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1036.3622)">
+     transform="translate(0,-1036.3622)"
+     sodipodi:insensitive="true">
     <path
        style="fill:url(#linearGradient5240);fill-opacity:1"
        d="m 3,1039.3622 2.5,-2 7.5,0 0,12 -2.5,2 -7.5,0 z"
        id="rect4691"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Shadow">
     <path
+       inkscape:connector-curvature="0"
+       style="display:inline;fill:#000000;fill-opacity:0.47878789;filter:url(#filter4201)"
+       d="m 5.5,1.5 0,1 4.75,0 -4.75,10 0,1 6,0 0,-1 -4.75,0 4.75,-10 0,-1 -6,0 z"
+       id="rect4683-9" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Z"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       inkscape:connector-curvature="0"
        style="fill:#000000;fill-opacity:1"
-       d="M 5 2 L 5 3 L 9.75 3 L 5 13 L 5 14 L 11 14 L 11 13 L 6.25 13 L 11 3 L 11 2 L 5 2 z "
-       transform="translate(0,1036.3622)"
+       d="M 5,2 5,3 9.75,3 5,13 5,14 11,14 11,13 6.25,13 11,3 11,2 5,2 Z"
        id="rect4683" />
   </g>
 </svg>
