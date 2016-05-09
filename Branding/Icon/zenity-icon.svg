@@ -57,6 +57,29 @@
          stdDeviation="0.18"
          id="feGaussianBlur4203" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5234"
+       id="linearGradient5240-0"
+       x1="1"
+       y1="1040.3622"
+       x2="15"
+       y2="1048.3622"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.71428571,0,0,1,2.285714,-1036.3622)" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4202"
+       x="-0.1008"
+       width="1.2016"
+       y="-0.072"
+       height="1.144">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.42"
+         id="feGaussianBlur4204" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -66,10 +89,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="31.678384"
-     inkscape:cx="-2.558977"
-     inkscape:cy="7.9967428"
+     inkscape:cx="2.349733"
+     inkscape:cy="7.5548011"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer4"
      showgrid="true"
      units="px"
      showguides="true"
@@ -120,6 +143,17 @@
     </rdf:RDF>
   </metadata>
   <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Glow">
+    <path
+       style="fill:url(#linearGradient5240-0);fill-opacity:1;filter:url(#filter4202)"
+       d="M 3,3 5.5,1 13,1 13,13 10.5,15 3,15 Z"
+       id="rect4691-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+  <g
      inkscape:label="Background"
      inkscape:groupmode="layer"
      id="layer1"
@@ -135,7 +169,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Shadow">
+     inkscape:label="Shadow"
+     sodipodi:insensitive="true">
     <path
        inkscape:connector-curvature="0"
        style="display:inline;fill:#000000;fill-opacity:0.47878789;filter:url(#filter4201)"
